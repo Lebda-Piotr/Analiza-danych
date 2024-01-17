@@ -1,8 +1,8 @@
 // CSVReader.cpp
+#include <iostream>
 #include "CSVReader.h"
 #include <fstream>
 #include <sstream>
-#include <iostream>
 
 CSVReader::CSVReader(const std::string& filePath) : filePath(filePath) {}
 
